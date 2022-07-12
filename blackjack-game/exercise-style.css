@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    gap: 24px;
+}
+.basket {
+    width: 200px;
+    height: 120px;
+    background-color: antiquewhite;
+    color: #222;
+}

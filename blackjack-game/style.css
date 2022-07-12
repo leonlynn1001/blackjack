@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+  /* add font-family with google fonts */
+  /* fallback */
+  font-family: 'Roboto', sans-serif;
+  /* add your background */
+  background-image: url('images/game-background.jpg');
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 3rem;
+}
+
+#message-el {
+  font-style: italic;
+  font-size: 2rem;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  background-color: bisque;
+  color: #222;
+  font-weight: 700;
+}
+
+/* color name, hex color, rgba */
+button:hover {
+  background-color: #ffcd91;
+  cursor: pointer;
+}
